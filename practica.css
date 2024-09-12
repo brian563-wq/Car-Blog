@@ -1,0 +1,235 @@
+*{
+box-sizing: border-box;
+margin: 2px;
+}
+
+body {
+ background-image: url(ruta.jpg);
+ font-family: 'Gill Sans';
+
+}
+
+
+#bienvenido {
+font-family:'Gill Sans';
+font-size: 300%;
+justify-content: center;
+color: aliceblue;
+text-align: center;
+box-shadow: 0px 0px 2px whitesmoke;
+margin-top: 10px;
+border-radius: 15px ;
+}
+
+#bienvenido2 {
+font-family:'Gill Sans';
+justify-content: center;
+color: white;
+text-align: center;
+margin: 6px;
+}
+
+
+
+.presentacion{
+font-family:'Gill Sans';
+margin: 6px;
+color: white;    
+}
+
+.present{
+font-family:'Gill Sans';
+margin: 6px;
+color: white;
+}
+
+#ford{
+font-family:'Gill Sans';
+margin: 6px;
+padding: 10px;
+border: rgb(1, 2, 75) 2px solid;
+border-radius: 5px;
+color: aliceblue;
+}
+
+#ford{
+background-color: rgba(3, 2, 51, 0.89);    
+}
+
+.parraford{
+    position: relative;
+    justify-content: center;
+    margin: 10px;
+}
+
+.tituloford{
+    justify-content: center;
+    margin: 6px;
+    color: white;
+    font-family:'Gill Sans';
+}
+
+.pford{
+ margin: 10px;
+display: flex;
+font-family:'Gill Sans';
+}
+
+.titulochevrolet{
+    justify-content: center;
+    margin: 6px;
+    color: white;
+    font-family:'Gill Sans';
+}
+
+#chevrolet{
+margin: 6px;
+padding: 10px;  
+color: white;
+background-color: rgba(56, 46, 1, 0.89);
+border: rgb(83, 82, 3) 2px solid;
+border-radius: 5px;
+}
+
+.parrachevrolet{
+   margin: 10px;
+}
+
+.pchevrolet{
+display: flex;
+}
+
+#mercedes{
+border: slategray 2px solid;
+margin: 6px;
+padding: 10px;  
+color: white;
+background-color: rgba(41, 39, 39, 0.89);
+border-radius: 5px;
+}
+
+.pmercedes{
+    display: flex;
+}
+
+.parramercedes{
+margin: 10px;
+}
+
+.titulomercedes{
+    justify-content: center;
+    margin: 6px;
+    color: white;
+    font-family:'Gill Sans';
+}
+
+.titulopeugeot{
+    justify-content: center;
+    margin: 6px;
+    color: white;
+    font-family:'Gill Sans';
+}
+
+.titulorenault{
+margin: 6px;
+color: white;    
+}
+
+#peugeot{
+margin: 6px;
+border: rgb(133, 44, 3) 2px solid;  
+padding: 10px;  
+color: white;
+background-color: rgba(100, 24, 1, 0.89);
+border-radius: 5px;
+}
+
+.ppeugeot{
+display: flex;
+margin: 6px;
+}
+
+.parrapeugeot{
+margin: 10px;    
+}
+
+#renault{
+margin: 6px;
+border: rgb(43, 146, 2) 2px solid;
+padding: 10px;  
+color: white;
+background-color: rgba(15, 51, 1, 0.89);
+border-radius: 5px;    
+}
+
+.prenault{
+margin: 6px;
+display: flex;
+}
+
+#volskwagen{
+margin: 6px;
+border: rgb(0, 100, 100) 2px solid;
+padding: 10px;  
+color: white;
+background-color: rgba(1, 68, 59, 0.89);
+border-radius: 5px; 
+}
+
+.titulovolskwagen{
+margin: 6px;
+color: white;    
+}
+
+.pvolskwagen{
+margin: 6px; 
+display: flex;   
+}
+
+#fiat{
+margin: 6px;
+border: rgb(163, 0, 0) 2px solid;
+padding: 10px;  
+color: white;
+background-color: rgba(78, 2, 2, 0.89);
+border-radius: 5px;        
+}
+
+.titulofiat{
+margin: 6px;
+color: white;    
+}
+
+.pfiat{
+margin: 6px; 
+display: flex;   
+}
+
+.body{
+    background-color: aqua;
+}
+
+
+
+
+#content #bienvenido, #bienvenido2, #buscador, .presentacion, .present , #ford, #chevrolet, #mercedes, #peugeot, #renault,#volskwagen,#fiat
+{
+    z-index: 1;
+}
+
+#casilla{
+    background-color: grey;
+    width: 150px;
+    padding: 3px;
+    box-shadow: 0px 0px 2px black;
+}
+
+.footer{
+    color: white;
+    margin: 20px;
+    margin-top: 50px;
+}
+
+.agradecimientos{
+   padding: 6px;
+}
